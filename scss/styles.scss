@@ -1,3 +1,15 @@
+$white: #ffffff;
+$gold: #bf930d;
+$very-dark-grey: #151515;
+$very-very-dark-grey: #101010;
+$full-black: #000000;
+$grey: #333;
+$orange: #ff600f;
+$facebook: #3b5999;
+$youtube: #ff0000;
+$instagram: #dd2a7b;
+$whatsapp: #43d854;
+
 *{
     padding: 0;
     margin: 0;
@@ -8,10 +20,11 @@ html{
 }
 body{
     font-family: 'Oxygen', sans-serif;
-    background-color: #151515;
+    background-color: $very-dark-grey;
     width: 100vw;
-    max-width: fit-content;
     max-width: -moz-fit-content;
+    max-width: fit-content;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
