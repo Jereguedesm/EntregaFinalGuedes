@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Oxygen', sans-serif;
+    background-color: #151515;
+    width: 100vw;
+    max-width: fit-content;
+    max-width: -moz-fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+@import "header";
+@import "main";
+@import "footer";
