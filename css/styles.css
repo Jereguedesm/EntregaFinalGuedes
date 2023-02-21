@@ -11,6 +11,7 @@ body {
   background-color: #151515;
   width: 100vw;
   min-width: fit-content;
+  max-width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -78,7 +79,8 @@ main {
     padding: 10px 10px; }
     main form label {
       padding-top: 10px;
-      padding-bottom: 5px; }
+      padding-bottom: 5px;
+      font-size: 1.8rem; }
     main form input {
       border-radius: 5px;
       height: 40px;
