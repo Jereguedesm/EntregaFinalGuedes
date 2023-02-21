@@ -62,9 +62,24 @@ main{
         list-style-type: none;
         margin: auto;
     }
+    .color-acordeon{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+.p-jus{
+    margin: 15px;
+    font-size: 2rem;
+    text-align: justify;
 }
 .p-jus-b{
     text-align: center;
     font-size: 1.6rem;
     color: $full-black;
+}
+.event{
+    background-color: $grey;
+    border-radius: 10px;
 }

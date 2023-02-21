@@ -52,6 +52,11 @@
             box-shadow: 2px 3px 3px $full-black;
         }
     }
+    .event{
+        &:hover{
+            background-color: $light-grey;
+        }
+    }
     footer{
         .redes-container{
             ul{

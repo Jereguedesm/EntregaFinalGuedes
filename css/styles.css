@@ -113,11 +113,25 @@ main {
     width: 45px;
     list-style-type: none;
     margin: auto; }
+  main .color-acordeon {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem; }
+
+.p-jus {
+  margin: 15px;
+  font-size: 2rem;
+  text-align: justify; }
 
 .p-jus-b {
   text-align: center;
   font-size: 1.6rem;
   color: #000000; }
+
+.event {
+  background-color: #333;
+  border-radius: 10px; }
 
 footer {
   background-color: #000000;
@@ -195,6 +209,8 @@ footer {
     transform: scale(1.1);
     border-radius: 100px;
     box-shadow: 2px 3px 3px #000000; }
+  .event:hover {
+    background-color: #8c8c8c; }
   footer .redes-container ul li a {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
     transition: .2s; }
