@@ -37,6 +37,7 @@ main{
             background-color: $orange;
             color: $white;
             border-radius: 5px;
+            padding: 0;
         }
         textarea{
             resize: none;
@@ -82,4 +83,7 @@ main{
 .event{
     background-color: $grey;
     border-radius: 10px;
+}
+.pharagraph{
+    font-size: 2rem;
 }

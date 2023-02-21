@@ -23,8 +23,7 @@ body{
     font-family: 'Oxygen', sans-serif;
     background-color: $very-dark-grey;
     width: 100vw;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
+    min-width: fit-content;
     height: 100vh;
     display: flex;
     flex-direction: column;

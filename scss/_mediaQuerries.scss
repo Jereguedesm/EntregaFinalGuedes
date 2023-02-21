@@ -50,6 +50,23 @@
             }
         }
     }
+    .main-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        section{
+            display: flex;
+            justify-content: center;
+            form{
+                .submit{
+                    background-color: $grey;
+                    &:hover{
+                        background-color: $orange;
+                    }
+                }
+            }
+        }
+    }
     .return-button-style{
         &:hover{
             background-color: $grey;
