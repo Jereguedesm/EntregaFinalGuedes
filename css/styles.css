@@ -144,6 +144,9 @@ footer {
     height: 200px;
     border: 0; }
 
+.return-button-style a {
+  color: #bf930d; }
+
 .redes-container {
   display: flex;
   align-items: center;
@@ -159,11 +162,22 @@ footer {
     .redes-container ul li a {
       display: block;
       padding: 10px 10px;
-      background: #333;
       color: #ffffff;
       line-height: 60px;
       width: 60px;
       font-size: 3rem; }
+
+.instagram {
+  background: #dd2a7b; }
+
+.youtube {
+  background: #ff0000; }
+
+.facebook {
+  background: #3b5999; }
+
+.whatsapp {
+  background: #43d854; }
 
 .author {
   font-size: 1.5rem;
@@ -176,6 +190,12 @@ footer {
   grid-template-rows: 1fr;
   grid-template-areas: "facebook youtube fa-instagram fa-whatsapp";
   padding: 0; }
+
+@media only screen and (max-width: 400px) {
+  .return-button-style {
+    background-color: #333;
+    border-radius: 100px;
+    box-shadow: 2px 3px 3px #000000; } }
 
 @media only screen and (min-width: 768px) {
   header nav ul {
@@ -211,9 +231,14 @@ footer {
     box-shadow: 2px 3px 3px #000000; }
   .event:hover {
     background-color: #8c8c8c; }
+  .return-button-style a {
+    color: #ffffff; }
+    .return-button-style a:hover {
+      color: #bf930d; }
   footer .redes-container ul li a {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
-    transition: .2s; }
+    transition: .2s;
+    background: #333; }
     footer .redes-container ul li a:hover {
       transform: translateY(-3px) scale(1.05);
       border-radius: 10px;

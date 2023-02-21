@@ -15,6 +15,11 @@ footer{
         }
     }
 }
+.return-button-style{
+    a{
+        color: $gold;
+    }
+}
 .redes-container{
     display: flex;
     align-items: center;
@@ -31,7 +36,6 @@ footer{
         a{
         display: block;
         padding: 10px 10px;
-        background: $grey;
         color: $white;
         line-height: 60px;
         width: 60px;
@@ -39,6 +43,18 @@ footer{
         }
         }
     }
+}
+.instagram{
+    background: $instagram;
+}
+.youtube{
+    background: $youtube;
+}
+.facebook{
+    background: $facebook
+}
+.whatsapp{
+    background: $whatsapp;
 }
 .author{
     font-size: 1.5rem;
