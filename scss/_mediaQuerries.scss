@@ -1,0 +1,46 @@
+@media only screen and (min-width: 768px){
+    header{
+        nav{
+            ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                li{
+                    padding: 10px;
+                    box-shadow: none;
+                    &:hover{
+                        transform: scale(1.1) translateY(-5px);
+                        background-color: $grey;
+                        border-radius: 10px;
+                    }
+                    a{
+                        &:hover{
+                            color: $gold;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    main{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: 
+        "half-main"
+        "return-button";
+        section{
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto;
+            grid-template-areas: 
+            "dv-1 dv-2";
+            div{
+                iframe{
+                    width: 800;
+                    height: 450;
+                }
+            }
+        }
+    }
+}
