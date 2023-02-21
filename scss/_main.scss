@@ -53,6 +53,14 @@ main{
         z-index: 100;
         text-align: center;
         font-size: 3rem;
+        ul{
+            padding: 0;
+        }
+    }
+    .return-button-style{
+        width: 45px;
+        list-style-type: none;
+        margin: auto;
     }
 }
 .p-jus-b{
