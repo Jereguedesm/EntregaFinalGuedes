@@ -36,6 +36,10 @@
         grid-template-areas: 
         "half-main"
         "return-button";
+        .half-main{
+            display: flex;
+            flex-direction: row-reverse;
+        }
         section{
             display: grid;
             grid-template-columns: auto auto;
@@ -48,6 +52,10 @@
                     height: 450;
                 }
             }
+        }
+        .slider{
+            width: 75%;
+            margin: auto;
         }
     }
     .main-form{
@@ -89,6 +97,13 @@
         }
     }
     footer{
+        display: flex;
+        flex-direction: column-reverse;
+        div{
+            iframe{
+                margin-bottom: 10px;
+            }
+        }
         .redes-container{
             ul{
                 li{
