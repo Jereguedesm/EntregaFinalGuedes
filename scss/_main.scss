@@ -70,6 +70,14 @@ main{
         text-align: center;
         font-size: 2rem;
     }
+    .idk{
+        font-size: 3rem;
+        color: $white;
+        justify-self: center;
+        background-color: $grey;
+        border-radius: 10px;
+        padding: 15px;
+    }
 }
 .p-jus{
     margin: 15px;
