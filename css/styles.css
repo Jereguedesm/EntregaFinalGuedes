@@ -169,6 +169,13 @@ main .idk {
   font-size: 2rem;
 }
 
+.comments {
+  font-size: 2rem;
+  color: #333;
+  font-style: italic;
+  text-align: center;
+}
+
 footer {
   background-color: #000000;
   display: grid;
@@ -322,11 +329,13 @@ footer div iframe {
     color: #bf930d;
   }
   footer {
-    display: flex;
-    flex-direction: column-reverse;
+    display: grid;
+    grid-template-columns: auto 200px;
+    grid-template-rows: 200px;
   }
   footer div iframe {
-    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
   }
   footer .redes-container ul li a {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
