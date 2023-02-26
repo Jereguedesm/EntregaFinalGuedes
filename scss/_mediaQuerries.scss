@@ -63,6 +63,21 @@
             }
         }
     }
+    .section-grupos{
+        div{
+            display: flex;
+            flex-direction: row;
+            margin: 5px auto;
+            img{
+                border-radius: 10px;
+                padding: 15px;
+            }
+            .titulo-grupos{
+                background-color: $grey;
+                margin: 0;
+            }
+        }
+    }
     .main-form{
         display: flex;
         flex-direction: column;
