@@ -96,6 +96,7 @@ main{
 .pharagraph{
     font-size: 2rem;
 }
+
 .comments{
     font-size: 2rem;
     color: $grey;
@@ -118,8 +119,8 @@ main{
         display: flex;
         flex-direction: column;
         margin: 10px;
-        max-width: fit-content;
-        background-color: $light-grey;
+        border: 3px solid $light-grey;
+        max-width: 100vw;
         img{
             max-width: 100vw;
         }
@@ -130,4 +131,7 @@ main{
             flex-direction: column;
         }
     }
+}
+.map-contactanos{
+    border-radius: 0;
 }

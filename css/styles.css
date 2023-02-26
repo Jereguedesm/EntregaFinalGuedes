@@ -187,8 +187,8 @@ main .idk {
   display: flex;
   flex-direction: column;
   margin: 10px;
-  max-width: fit-content;
-  background-color: #8c8c8c;
+  border: 3px solid #8c8c8c;
+  max-width: 100vw;
 }
 .section-grupos div img {
   max-width: 100vw;
@@ -198,6 +198,10 @@ main .idk {
 }
 .section-grupos div .grupo-2 {
   flex-direction: column;
+}
+
+.map-contactanos {
+  border-radius: 0;
 }
 
 footer {
@@ -326,6 +330,12 @@ footer div iframe {
     display: flex;
     flex-direction: row;
     margin: 5px auto;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+  .section-grupos div .background-divs {
+    background-color: #333;
   }
   .section-grupos div img {
     border-radius: 10px;
@@ -375,13 +385,12 @@ footer div iframe {
     color: #bf930d;
   }
   footer {
-    display: grid;
-    grid-template-columns: auto 200px;
-    grid-template-rows: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
   }
-  footer div iframe {
-    width: 200px;
-    height: 200px;
+  footer div {
+    margin: 10px;
   }
   footer .redes-container ul li a {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
@@ -405,4 +414,20 @@ footer div iframe {
   footer .redes-container ul li .whatsapp:hover {
     background: #43d854;
   }
+}
+.map-contactanos {
+  margin: auto 0;
+}
+.map-contactanos h4 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 15px;
+  justify-self: center;
+}
+.map-contactanos iframe {
+  border-radius: 10px;
+}
+
+.texto-inicio {
+  border: 3px solid #bf930d;
 }
